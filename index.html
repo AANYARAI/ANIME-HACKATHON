@@ -12,7 +12,7 @@
   <!-- 🌸 Navbar Section -->
   <nav class="navbar">
     <ul class="navbar-links">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li> <!-- Changed from #home to #hero -->
       <li><a href="char.html">Character Profile</a></li>
       <li><a href="episode_guide.html">Episode Guide</a></li>
       <li><a href="timeline.html">Timeline</a></li>
@@ -24,7 +24,7 @@
     </div>
   </nav>
 
-  <!-- 🌸 Hero Section -->
+  <!-- 🌸 Hero Section (with typewriter and summary) -->
   <section class="content-wrapper" id="hero">
     <div class="card title-card">
       <div class="typewriter-wrapper">
@@ -32,47 +32,62 @@
       </div>
     </div>
     <div class="card-text">
-      <p><strong>Hyouka</strong> is a beautifully animated Japanese anime that blends slice-of-life with soft mystery, centered
+      <p>
+        <strong>Hyouka</strong> is a beautifully animated Japanese anime that blends slice-of-life with soft mystery, centered
         around Oreki Houtarou — a quiet genius with a strong desire to conserve energy. When he's roped into the school’s
-        <em>Classics Club</em> by the ever-curious Chitanda Eru, his talents are drawn into solving everyday enigmas with surprising depth.</p>
-      <p>Set against lush backgrounds and steeped in introspective themes, Hyouka gracefully explores adolescence, curiosity,
-        and the subtle unraveling of secrets in the ordinary. It's a slow-burn beauty that stays with you long after the final episode.</p>
+        <em>Classics Club</em> by the ever-curious Chitanda Eru, his talents are drawn into solving everyday enigmas with surprising depth.
+      </p>
+      <p>
+        Set against lush backgrounds and steeped in introspective themes, Hyouka gracefully explores adolescence, curiosity,
+        and the subtle unraveling of secrets in the ordinary. It's a slow-burn beauty that stays with you long after the final episode.
+      </p>
     </div>
+<!-- 
+    <div class="theme-song">
+      <p>Groove to the melodious theme song</p>
+      <a href="https://youtu.be/3tvOowLuKxs?si=YGafrPguXEWYIqkM" target="_blank" class="theme-song-btn">
+      <button>Listen here!</button>
+    </div> -->
+    
   </section>
 
+  <!-- 🌸 Sakura Effect Container -->
+  <div id="sakura-container"></div>
+
   <!-- 🌸 Fullscreen Carousel Section -->
+   
   <section class="fullscreen-carousel" id="feature-carousel">
     <button class="carousel-nav left" onclick="prevSlide()" aria-label="Previous Slide">❮</button>
     <div class="carousel-track">
-      <div class="carousel-slide" onclick="location.href='character_profile.html'" role="link">
+      <div class="carousel-slide" onclick="location.href='#character-profile'" role="link">
         <div class="carousel-text">
           <h2>Character Profile</h2>
           <p>Discover every character in detail with flip-cards and traits.</p>  
         </div>
-      </div>
-      <div class="carousel-slide" onclick="location.href='episode_guide.html'" role="link">
+        </div>
+      <div class="carousel-slide" onclick="location.href='#episode-guide'" role="link">
         <div class="carousel-text">
           <h2>Episode Guide</h2>
-          <p>Get summaries and details for all 22 episodes of Hyouka.</p>
+        <p>Get summaries and details for all 22 episodes of Hyouka.</p>
         </div>
       </div>
-      <div class="carousel-slide" onclick="location.href='timeline.html'" role="link">
+      <div class="carousel-slide" onclick="location.href='#timeline'" role="link">
         <div class="carousel-text">
           <h2>Series Timeline</h2>
           <p>Follow the story arc in chronological order with visual navigation.</p>
         </div>
-      </div>
-      <div class="carousel-slide" onclick="location.href='community.html'" role="link">
+        </div>
+      <div class="carousel-slide" onclick="location.href='#community'" role="link">
         <div class="carousel-text">
           <h2>Community Forum</h2>
-          <p>Join discussions and share your theories with other fans.</p>
+        <p>Join discussions and share your theories with other fans.</p>
         </div>
       </div>
-      <div class="carousel-slide" onclick="location.href='fan.html'" role="link">
+      <div class="carousel-slide" onclick="location.href='#fanart'" role="link">
         <div class="carousel-text">
-          <h2>Fan Art Gallery</h2>
-          <p>View and contribute your own Hyouka-inspired artwork.</p>
-        </div>
+        <h2>Fan Art Gallery</h2>
+        <p>View and contribute your own Hyouka-inspired artwork.</p>
+      </div>
       </div>
     </div>
     <button class="carousel-nav right" onclick="nextSlide()" aria-label="Next Slide">❯</button>
@@ -90,6 +105,6 @@
   </section>
 
   <!-- 🌸 JavaScript -->
-  <script src="homepage.js" defer></script>
+  <script src="homepage.js" defer></script> <!-- Ensures JS loads after HTML -->
 </body>
 </html>

@@ -33,11 +33,11 @@ main {
   background: transparent;
   min-height: 150px;
   text-align: justify;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); */
   animation: fadeSlideIn 1s ease forwards;
   animation-delay: 0.3s;
   opacity: 0;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 }
 
 /* === Typewriter Effect === */
