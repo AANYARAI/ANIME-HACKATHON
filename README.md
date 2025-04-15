@@ -11,4 +11,4 @@ featuring an interactive community, visual timeline, fan art gallery, and detail
 ~Css
 ~Js
 ## 🚀 Setup Instructions
-  git clone https://github.com/AANYARAI/ANIME-HACKATHON.gi
+  git clone https://github.com/AANYARAI/ANIME-HACKATHON.git
