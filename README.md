@@ -10,10 +10,7 @@ To create a responsive, visually elegant, and fully interactive fan site honorin
 
 ---
 
-## 🚀 Live Demo
 
-🔗 [Visit the Website](https://your-username.github.io/hyouka-fan-website)  
-*(Replace with your live deployment URL)*
 
 ---
 
@@ -119,7 +116,7 @@ Go to Settings > Pages
 
 Set source branch to main and directory to /root
 
-Your live site will be available at https://your-username.github.io/hyouka-fan-website
+Your live site will be available at anime-hackathon-ivory.vercel.app
 
 
 📸 Screenshots
